@@ -28,7 +28,7 @@
     {
       "text": "// Go program to illustrate\\n// the use of integers\\npackage main\\nimport \"fmt\"\\n\\nfunc main() {\\n\\t// Using 8-bit unsigned int\\n\\tvar X uint8 = 225\\n\\tfmt.Println(X, X-3)\\n\\n\\t// Using 16-bit signed int\\n\\tvar Y int16 = 32767\\n\\tfmt.Println(Y+2, Y-2)\\n}",
       "source": "GeekForGeeks - Data Types",
-      "length": 254,
+      "length": 250,
       "id": 4
     },
     {
@@ -64,7 +64,7 @@
     {
       "text": "// Go program to illustrate the use\\n// of := (short declaration operator)\\npackage main\\n\\nimport \"fmt\"\\n\\nfunc main() {\\n\\t// declaring and initializing the variable\\n\\ta := 30\\n\\n\\t// taking a string variable\\n\\tlanguage := \"Go Programming\"\\n\\n\\tfmt.Println(\"The Value of a is: \", a)\\n\\tfmt.Println(\"The Value of language is: \", language)\\n}",
       "source": "GeekForGeeks - Short Declaration Operator(:=)",
-      "length": 344,
+      "length": 343,
       "id": 10
     },
     {
@@ -82,7 +82,7 @@
     {
       "text": "// Go program to illustrate the\\n// use of simple for loop\\npackage main\\nimport \"fmt\"\\n\\nfunc main() {\\n\\tfor i := 0; i < 4; i++ {\\n\\t\\tfmt.Printf(\"GeeksforGeeks\\n\")\\n\\t}\\n}",
       "source": "GeekForGeeks - Loops in Golang",
-      "length": 174,
+      "length": 170,
       "id": 13
     },
     {
@@ -100,7 +100,7 @@
     {
       "text": "// Go program to illustrate the\\n// concept of variadic function\\npackage main\\nimport (\\n\\t\"fmt\"\\n\\t\"strings\"\\n)\\n\\n// Variadic function to join strings\\nfunc joinstr(elements ...string) string {\\n\\treturn strings.Join(elements, \"-\")\\n}\\n\\nfunc main() {\\n\\t// pass a slice in variadic function\\n\\telements := []string{\"geeks\", \"FOR\", \"geeks\"}\\n\\tfmt.Println(joinstr(elements...))\\n}",
       "source": "GeekForGeeks - Variadic Function",
-      "length": 383,
+      "length": 333,
       "id": 16
     },
     {
